@@ -1,0 +1,5 @@
+string = input("Enter a list of colours (separate it between commas):")
+colour = string.split(",")
+print("The colours are:", colour)
+print("The First colour is:", colour[0])
+print("The Last colour is:", colour[-1])
